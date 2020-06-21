@@ -1,1 +1,1 @@
-boiler plate for my node js projects
+Config reader that reads a default config and appends command line params

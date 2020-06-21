@@ -1,19 +1,18 @@
 {
-  "name": "@nodebug/boilerplatejs",
-  "version": "0.0.1",
+  "name": "@nodebug/config",
+  "version": "1.0.0",
   "author": {
     "name": "Node Bug",
     "email": "nodebug@outlook.com"
   },
   "bugs": {
-    "url": "https://github.com/node-bug/boilerplatejs/issues"
+    "url": "https://github.com/node-bug/config/issues"
   },
   "dependencies": {
-    "@nodebug/logger": "1.0.0",
     "rc": "^1.2.8"
   },
   "description": "boiler plate for nodejs projects",
-  "homepage": "https://github.com/node-bug/boilerplatejs#readme",
+  "homepage": "https://github.com/node-bug/config#readme",
   "keywords": [
     "node",
     "npm",
@@ -23,7 +22,7 @@
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thomasashwindsilva/boilerplatejs.git"
+    "url": "git+https://github.com/thomasashwindsilva/config.git"
   },
   "scripts": {
     "test": "npm run test"
