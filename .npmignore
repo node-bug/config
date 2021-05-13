@@ -1,7 +1,9 @@
 .config
+.vscode
 node_modules
 .eslintrc
 .gitignore
 .npmignore
 .prettierrc
 package-lock.json
+test.js

@@ -11,5 +11,5 @@ module.exports = (appName) => {
     defaultConfig = require(defaultConfigPath)
   }
 
-  return rc(appName, defaultConfig)
+  return rc(appName, { ...defaultConfig, ...process.env })
 }
