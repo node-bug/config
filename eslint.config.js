@@ -1,7 +1,7 @@
-import js from '@eslint/js';
-import prettierConfig from 'eslint-config-prettier';
-import globals from 'globals';
-import tseslint from 'typescript-eslint'; // Import the TS plugin
+import js from '@eslint/js'
+import prettierConfig from 'eslint-config-prettier'
+import globals from 'globals'
+import tseslint from 'typescript-eslint' // Import the TS plugin
 
 export default [
   {
@@ -40,4 +40,4 @@ export default [
   },
 
   prettierConfig,
-];
+]

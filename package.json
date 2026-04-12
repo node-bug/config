@@ -31,8 +31,8 @@
   },
   "scripts": {
     "test": "npx mocha tests/**/*.js",
-    "lint": "eslint . --ext .js,.mjs",
-    "prepare": "husky"
+    "lint": "eslint .",
+    "prepare": "husky && echo 'npx lint-staged' > .husky/pre-commit && chmod +x .husky/pre-commit"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -47,14 +47,10 @@
     "prettier": "^3.8.2",
     "typescript-eslint": "^8.58.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --fix"
+      "eslint --fix",
+      "prettier --write"
     ],
     "*.{json,yaml,yml,md,sh,groovy}": [
       "prettier --write"

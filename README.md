@@ -19,12 +19,12 @@ npm install @nodebug/config
 ## Usage
 
 ```js
-import config from '@nodebug/config';
+import config from '@nodebug/config'
 
 // Load configuration for an app named 'myapp'
-const config = config('myapp');
+const config = config('myapp')
 
-console.log(config);
+console.log(config)
 ```
 
 ### Configuration File Format
@@ -62,8 +62,6 @@ Make sure to install Husky and lint-staged first:
 
 ```bash
 npm install --save-dev
-npx husky init
-npx lint-staged
 ```
 
 To lint the code:
