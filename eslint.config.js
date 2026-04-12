@@ -27,9 +27,9 @@ export default [
     },
   },
 
-  // 3. General environment settings
+  // 3. JavaScript-specific environment settings
   {
-    files: ['**/*.js', '**/*.mjs', '**/*.ts', '**/*.d.ts'],
+    files: ['**/*.js', '**/*.mjs'],
     languageOptions: {
       ecmaVersion: 'latest',
       globals: {
