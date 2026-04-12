@@ -1,15 +1,27 @@
-const exists = require('fs').existsSync
-const rc = require('rc')
+import { existsSync } from 'fs';
+import { readFileSync } from 'fs';
+import rc from 'rc';
 
-module.exports = (appName) => {
-  const root = process.cwd()
-  const defaultConfigPath = `${root}/.config/${appName}.json`
+/**
+ * Configuration reader for Node.js applications
+ *
+ * @param {string} appName - The name of the application to load configuration for
+ * @returns {Object} The merged configuration object
+ */
+export default (appName) => {
+  const root = process.cwd();
+  const defaultConfigPath = `${root}/.config/${appName}.json`;
 
-  let defaultConfig
-  if (exists(defaultConfigPath)) {
-    // eslint-disable-next-line import/no-dynamic-require,global-require
-    defaultConfig = require(defaultConfigPath)
+  let defaultConfig = {};
+  if (existsSync(defaultConfigPath)) {
+    try {
+      const configContent = readFileSync(defaultConfigPath, 'utf8');
+      defaultConfig = JSON.parse(configContent);
+    } catch (error) {
+      // If config file is invalid, use empty config
+      defaultConfig = {};
+    }
   }
 
-  return rc(appName, { ...defaultConfig, ...process.env })
-}
+  return rc(appName, { ...defaultConfig, ...process.env });
+};
