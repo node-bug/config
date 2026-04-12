@@ -1,0 +1,50 @@
+Mozilla Public License Version 2.0
+==================================
+
+1. Definitions
+
+1.1. "Contributor" means each individual or legal entity that creates, contributes to the creation of, or owns Covered Software.
+1.2. "Contributor Version" means the combination of the Contributions of others (if any) used by a Contributor and that particular Contributor's Contribution.
+1.3. "Covered Software" means Source Code Form of the Covered Software, or portions thereof, including modifications made by you or to which you have contributed.
+1.4. "Executable" means Covered Software in any form other than Source Code Form.
+1.5. "Larger Work" means a work that combines Covered Software with other material, in a separate file or files, that is not Covered Software.
+1.6. "License" means this document.
+1.7. "Licensable" means having the right to grant, to the maximum extent possible, whether at the time of the initial grant or later acquired, any and all of the rights conveyed by copyright law.
+1.8. "Modifications" means any addition to or deletion from the substance or structure of either the Source Code Form or Executable Form of Covered Software, or any new file that contains any Covered Software.
+1.9. "Patent Claims" means any patent claim(s), now owned or hereafter acquired, including without limitation, method, process, and apparatus claims, in any patent Licensable by grantor.
+1.10. "Source Code Form" means the form of the work preferred for making modifications.
+1.11. "You" (or "Your") means an individual or a legal entity exercising rights under this License.
+1.12. "Patent Licensor" means any Contributor that makes a patent grant.
+1.13. "Secondary Licenses" means either the GNU General Public License, Version 2, June 1991, or any later version of the GNU General Public License if the Covered Software is released under such a license.
+
+2. License Grants and Conditions
+
+2.1. Grants
+
+2.1.1. Each Contributor hereby grants You a world-wide, royalty-free, non-exclusive license, under intellectual property rights (other than patent or trademark) and the right to grant sublicenses, to use, reproduce, modify, display, perform, distribute, and otherwise exploit the Covered Software.
+
+2.1.2. If You distribute Covered Software in Source Code Form, You must make the Source Code available under this License.
+
+2.1.3. If You distribute Covered Software in Executable Form, You must make the Source Code of the Covered Software available under this License.
+
+2.2. Conditions
+
+2.2.1. You may not remove or alter any copyright notices.
+2.2.2. You may not use the name of any Contributor or the project for publicity without permission.
+
+3. Responsibilities
+
+3.1. You must make sure that your contributions are your original work or that you have the right to submit them under this License.
+3.2. You must not grant rights that conflict with this License.
+
+4. Limitations
+
+4.1. There is no warranty for the software.
+4.2. The license does not cover trademarks, patents, or trade secrets.
+
+5. Miscellaneous
+
+5.1. If any provision of this License is held invalid, the rest of the License remains in effect.
+5.2. This License is governed by the laws of the jurisdiction in which the dispute is heard.
+
+For more information, see https://www.mozilla.org/en/MPL/2.0/
