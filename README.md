@@ -310,26 +310,6 @@ validateConfig(appConfig, schema)
 
 This configuration library provides a robust foundation for managing application settings in Node.js projects, supporting various deployment scenarios and configuration management patterns.
 
-## Development
-
-Make sure to install Husky and lint-staged first:
-
-```bash
-npm install --save-dev
-```
-
-To lint the code:
-
-```bash
-npm run lint
-```
-
-To format the code:
-
-```bash
-npm run format
-```
-
 ## License
 
 This project is licensed under the MPL-2.0 License.
