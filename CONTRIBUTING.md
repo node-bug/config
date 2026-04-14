@@ -40,7 +40,7 @@ If you find a bug or have a feature request, please open an issue on our GitHub 
 ## Development Setup
 
 1. Clone the repository
-2. Install dependencies: `npm install`
+2. Install dependencies: `npm install --save-dev`
 3. Run tests: `npm test`
 4. Run linter: `npm run lint`
 5. Format code: `npm run format`

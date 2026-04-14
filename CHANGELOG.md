@@ -18,7 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Husky pre-commit hooks
 - ESLint configuration
 - Prettier configuration
-- Comprehensive test suite with mocha and chai
+- Comprehensive test suite with jest
 - GitHub Actions CI/CD pipeline for linting, testing, and publishing
 
 ### Changed
