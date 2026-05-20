@@ -9,7 +9,6 @@ describe('config', () => {
     const result = config('test')
     expect(typeof result).toBe('object')
   })
-
   test('should handle missing config files gracefully', () => {
     const result = config('nonexistent')
     expect(typeof result).toBe('object')
