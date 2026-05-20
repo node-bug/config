@@ -19,8 +19,6 @@ lint-staged.config.js
 husky/
 .nyc_output/
 coverage/
-.nyc_output/
-.nyc_output
 node_modules/
 jspm_packages/
 logs/
@@ -32,6 +30,7 @@ CHANGELOG.md
 
 # Configuration files
 *.config.js
+*.config.ts
 *.rc
 *.json
 *.yml
@@ -60,6 +59,4 @@ Thumbs.db
 *.temp
 
 # Package lock file
-logs/
-node_modules/
 package-lock.json
